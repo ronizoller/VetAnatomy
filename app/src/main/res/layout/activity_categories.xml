@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ronizoller.vetanatomy.categories">
+
+    <Button
+        android:id="@+id/random"
+        android:layout_width="169dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Random quesiotns"
+        android:background="@drawable/buttonpink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat1"
+        app:layout_constraintVertical_bias="0.924" />
+    <Button
+        android:id="@+id/cat1"
+        android:layout_width="169dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:text="week2"
+        android:background="@drawable/buttonpink"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat0" />
+
+    <Button
+        android:id="@+id/cat0"
+        android:layout_width="169dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="60dp"
+        android:text="week1"
+        android:background="@drawable/buttonpink"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
